@@ -2,7 +2,7 @@
   "name": "onur-polat",
   "version": "1.0.0",
   "license": "MIT",
-  "main":"app.js"
+  "main":"app.js",
   "scripts": {
     "ng": "ng",
     "dev": "ng serve",
