@@ -2,21 +2,20 @@
   "name": "onur-polat",
   "version": "1.0.0",
   "license": "MIT",
+  "main":"app.js",
   "scripts": {
     "ng": "ng",
     "dev": "ng serve",
-    "start": "node app.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod",
-   
+    "postinstall": " grunt sass:production && ng build --aot -prod",   
     "deploy": "git push origin master && git push heroku master"
   },
   "engines": {
-    "node":"6.9.2",
-    "npm":"3.10.9"
+    "node":"~6.10.3",
+    "npm":"~3.10.5"
   },
   "private": true,
   "dependencies": {
