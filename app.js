@@ -15,7 +15,7 @@ const forceSSL = function() {
 // ForceSSL middleware
 app.use(forceSSL());
 app.use(express.static(__dirname + '/dist'));
-app.listen(8080, function(){
+app.listen(process.env.PORT, function(){
     console.log(this.address().port, app.settings.env);
 }
 );
