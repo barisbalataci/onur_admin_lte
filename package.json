@@ -41,7 +41,10 @@
     "ngx-admin-lte": "0.6.3",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4",
-    "express":"^4.16.2"
+    "express":"^4.16.2",
+     "typescript": "~2.2.0",
+     "@types/jasmine": "2.5.38",
+    "@types/node": "~6.0.60"
   },
   "devDependencies": {
     "@angular/cli": "1.0.3",
